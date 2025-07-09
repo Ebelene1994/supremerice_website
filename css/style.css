@@ -1,0 +1,335 @@
+/* Order History Styles */
+#order-history-table {
+    border: 1px solid #dee2e6;
+    margin-bottom: 2rem;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#order-history-table th {
+    background-color: #28a745;
+    color: #fff;
+    padding: 0.75rem;
+    vertical-align: middle;
+}
+
+#order-history-table td {
+    padding: 0.75rem;
+    vertical-align: middle;
+}
+
+#order-history-table .btn-sm {
+    padding: 0.25rem 0.75rem;
+    font-size: 0.875rem;
+}
+
+#order-history-table .badge {
+    font-size: 0.9rem;
+    padding: 0.5em 0.75em;
+    font-weight: 500;
+}
+
+#no-orders-message {
+    display: none;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Status Badge Colors */
+.badge-pending {
+    background-color: #ffc107;
+    color: #212529;
+}
+
+.badge-shipped,
+.badge-delivered,
+.badge-cancelled {
+    color: #fff;
+}
+
+.badge-shipped {
+    background-color: #28a745;
+}
+
+.badge-delivered {
+    background-color: #17a2b8;
+}
+
+.badge-cancelled {
+    background-color: #dc3545;
+}
+
+/* Navigation Styles */
+.nav-link {
+    padding: 0.625rem 0.9375rem;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #28a745;
+    transform: scale(1.05);
+}
+
+/* Carousel Styles */
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1.875rem;
+    border-radius: 0.9375rem;
+}
+
+.carousel-caption h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Why Choose Us Icons */
+.bi {
+    transition: transform 0.3s ease;
+}
+
+.bi:hover {
+    transform: scale(1.2);
+}
+
+/* Card Styles */
+.card {
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-0.625rem);
+    box-shadow: 0 0.625rem 1.25rem rgba(0, 0, 0, 0.2);
+    border: 2px solid #28a745;
+}
+
+/* Testimonials Slider */
+#testimonialsCarousel .carousel-item {
+    transition: transform 0.5s ease-in-out;
+}
+
+/* Call-to-Action Section */
+.cta-section {
+    padding: 3rem 1rem;
+}
+
+/* Cart and Checkout Styling */
+.cart-items .list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.9375rem;
+    transition: background-color 0.3s ease;
+}
+
+.cart-items .list-group-item:hover {
+    background-color: #f8f9fa;
+}
+
+#cart-total {
+    font-size: 1.25rem;
+    color: #28a745;
+    font-weight: 600;
+}
+
+#clearCart,
+#checkout,
+#placeOrder {
+    padding: 0.625rem 1.25rem;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+/* Button Hover Styles */
+#clearCart:hover,
+#checkout:hover,
+#placeOrder:hover,
+.add-to-cart:hover {
+    transform: scale(1.05) translateY(-0.125rem);
+    background-color: #218838;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
+}
+
+/* Checkout Form Styling */
+#checkout-form .form-label,
+#auth-form .form-label,
+#edit-profile-form .form-label {
+    font-weight: 600;
+}
+
+.card-header {
+    background-color: #f8f9fa;
+    padding: 0.75rem 1.25rem;
+}
+
+/* Cart Table Styling */
+.cart-table {
+    border: 1px solid #dee2e6;
+    margin-bottom: 2rem;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cart-table th {
+    background-color: #28a745;
+    color: #fff;
+    padding: 0.75rem;
+    vertical-align: middle;
+}
+
+.cart-table td {
+    padding: 0.75rem;
+    vertical-align: middle;
+}
+
+.quantity-control {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.quantity-control input {
+    width: 3.75rem;
+    text-align: center;
+    padding: 0.25rem;
+}
+
+.quantity-control button {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.9rem;
+}
+
+.cart-table .btn-danger {
+    padding: 0.25rem 0.75rem;
+}
+
+/* Payment Details Styling */
+.payment-details {
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border-radius: 0.3125rem;
+    margin-bottom: 1rem;
+    transition: all 0.3s ease;
+}
+
+.payment-details input[type="text"],
+.payment-details input[type="email"] {
+    border: 1px solid #ced4da;
+    padding: 0.375rem 0.75rem;
+}
+
+/* Footer Styling */
+footer {
+    background: linear-gradient(135deg, #343a40 0%, #212529 100%);
+    padding: 4rem 0;
+}
+
+footer h5 {
+    color: #28a745;
+    margin-bottom: 1.5rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #28a745;
+}
+
+/* Scroll Arrow */
+#scrollTop {
+    transition: opacity 0.3s ease;
+}
+
+/* Account Page Styles */
+#auth-section .card {
+    border-radius: 0.625rem;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+}
+
+#dashboard-section .nav-tabs {
+    border-bottom: 2px solid #28a745;
+}
+
+#dashboard-section .nav-link {
+    color: #495057;
+    transition: all 0.3s ease;
+}
+
+#dashboard-section .nav-link.active {
+    color: #28a745;
+    border-bottom: 3px solid #28a745;
+}
+
+/* Edit Profile Styles */
+#edit-profile-form .card {
+    border-radius: 0.625rem;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+}
+
+#edit-profile-form .form-control {
+    border-radius: 0.3125rem;
+    transition: border-color 0.3s ease;
+}
+
+#edit-profile-form .form-control:focus {
+    border-color: #28a745;
+    box-shadow: 0 0 0.3125rem rgba(40, 167, 69, 0.3);
+}
+
+#edit-profile-form .btn-success,
+#edit-profile-form .btn-outline-secondary {
+    padding: 0.5rem 1.5rem;
+    transition: all 0.3s ease;
+}
+
+#edit-profile-form .btn-success:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+
+#edit-profile-form .form-text {
+    font-size: 0.85rem;
+}
+
+/* Media Queries */
+@media (max-width: 576px) {
+    .cart-items .list-group-item {
+        flex-direction: column;
+        text-align: center;
+        padding: 0.75rem;
+    }
+
+    #clearCart,
+    #checkout,
+    #placeOrder {
+        width: 100%;
+        margin-bottom: 0.625rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel-caption {
+        padding: 1rem;
+    }
+
+    .carousel-caption h1 {
+        font-size: 1.5rem;
+    }
+
+    .carousel-caption p {
+        font-size: 1rem;
+    }
+
+    .quantity-control {
+        flex-direction: column;
+        gap: 0.25rem;
+    }
+
+    .quantity-control input {
+        width: 2.5rem;
+    }
+}
